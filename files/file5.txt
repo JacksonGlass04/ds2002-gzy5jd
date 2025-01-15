@@ -1,0 +1,140 @@
+    1  pwd
+    2  ls
+    3  ls -al
+    4  ls -a
+    5  ls -al
+    6  cd .
+    7  pwd
+    8  ls -al
+    9  cd ..
+   10  pwd
+   11  ls
+   12  ls -al
+   13  cd ds2002-gzy5jd/
+   14  cd ..
+   15  pwd
+   16  ls
+   17  ls -al
+   18  ls -l
+   19  ls -al
+   20  cd ~
+   21  pwd
+   22  clear
+   23  pwd
+   24  ls ..
+   25  ls ....
+   26  ls ..
+   27  ls .. -al
+   28  ls -al
+   29  clear
+   30  cd /workspaces/ds2002-gzy5jd/
+   31  pwd
+   32  cd
+   33  ls
+   34  cd ~
+   35  ls -al
+   36  cd /workspaces/ds2002-gzy5jd/
+   37  touch file.txt
+   38  ls -al
+   39  touch file2.txt
+   40  ls
+   41  clear
+   42  ls -al
+   43  cp file.txt file1.txt
+   44  rm file.txt
+   45  echo "a man a plan a canal panama"
+   46  echo "a man a plan a canal panama" > file1.txt
+   47  nano file1.txt 
+   48  ls -al > file3.txt
+   49  nano file3.txt
+   50  cat file1.txt 
+   51  cat file1.txt > file2.txt 
+   52  cat file2.txt > file3.txt 
+   53  nano file3.txt
+   54  cat file2.txt >> file3.txt 
+   55  cat file3.txt 
+   56  cat file2.txt >> file3.txt 
+   57  cat file3.txt 
+   58  cat file3.txt >> file3.txt 
+   59  cat file3.txt 
+   60  clear
+   61  cat /dev/null
+   62  cat file3.txt 
+   63  cat /dev/null > file3.txt 
+   64  cat file3.txt 
+   65  mkdir files
+   66  ls
+   67  ls -al
+   68  mv file1.txt files
+   69  ls
+   70  ls files
+   71  ls files -al
+   72  cat file2.txt 
+   73  mv file2.txt file3.txt 
+   74  cat file3.txt 
+   75  cat file2.
+   76  cat file2.txt
+   77  ls
+   78  ls -al files
+   79  ls files -al
+   80  touch file4.txt
+   81  tocuh file5.txt
+   82  touch file5.txt
+   83  cp file2.txt file6.txt
+   84  touch file2.txt
+   85  cp file2.txt file6.txt
+   86  cp file3.txt file7.txt
+   87  mv file7.txt file7.txt
+   88  touch script.sh
+   89  touch myscript.py
+   90  clear
+   91  ls -al
+   92  mv file* files
+   93  ls -al
+   94  ls -al files
+   95  touch file8.txt
+   96  mv file*.txt files
+   97  ls -al
+   98  clear
+   99  ls -al
+  100  rm files/file7*
+  101  ls -al files
+  102  rm files/file8*
+  103  ls -al files
+  104  clear
+  105  ls -al
+  106  top
+  107  ps
+  108  ps aux
+  109  clear
+  110  cd files
+  111  ls
+  112  ps aux > file6.txt 
+  113  ls -al
+  114  cat file6.txt 
+  115  clear
+  116  head file6.txt 
+  117  clear
+  118  head -n 3 file6*
+  119  head -n 7 file6*
+  120  tail -n 7 file6*
+  121  tail file6*
+  122  clear
+  123  history > file7.txt
+  124  cd ..
+  125  c dfiles
+  126  cd files
+  127  history
+  128  clear
+  129  history
+  130  ! 111
+  131  ls
+  132  cat file7.txt
+  133  clear
+  134  mv file7* file5*
+  135  cat file5*
+  136  clear
+  137  cat file5.txt | grep "clear"
+  138  cat file5.txt | grep "clear" | wc -l
+  139  cat file5.txt | grep "clear" | wc
+  140  history > file5*
